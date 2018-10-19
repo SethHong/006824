@@ -93,7 +93,7 @@ namespace MemoEngine.DotNetNote
             }
             else // 검색 결과 리스트
             {
-                ctlBoardList.DataSource = _repository.GetSeachAll(
+                ctlBoardList.DataSource = _repository.GetSearchAll(
                     PageIndex, SearchField, SearchQuery);
             }
 
